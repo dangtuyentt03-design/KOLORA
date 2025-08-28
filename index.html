@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolora.vn</title>
+  <!-- Font Playfair Display Regular 400 -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #faf8e1; /* nền be nhạt */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+      font-family: 'Playfair Display', serif;
+      font-weight: 400; /* Regular */
+      font-size: 46px;
+      letter-spacing: 1px;
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 80%;
+      max-width: 300px;
+    }
+
+    .link-btn {
+      display: block;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+
+    .link-btn:hover {
+      transform: scale(1.05);
+    }
+
+    /* Màu riêng từng app */
+    .facebook { background-color: #1877f2; }
+    .instagram { background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5); }
+    .tiktok { background-color: #010101; }
+    .shopee { background-color: #ee4d2d; }
+  </style>
+</head>
+<body>
+  <h1>Kolora.vn</h1>
+
+  <div class="link-container">
+    <a class="link-btn facebook" href="https://www.facebook.com/kolorastudio" target="_blank">📘 Facebook</a>
+    <a class="link-btn instagram" href="https://www.instagram.com/kolora___/" target="_blank">📸 Instagram</a>
+    <a class="link-btn tiktok" href="https://www.tiktok.com/@kolora.tiktok?is_from_webapp=1&sender_device=pc" target="_blank">🎵 TikTok</a>
+    <a class="link-btn shopee" href="http://shopee.vn/dangthithanhtuyen111" target="_blank">🛍️ Shopee</a>
+  </div>
+</body>
+</html>
+
